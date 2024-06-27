@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rodrigo Martins - Portfólio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    <style>
+        p{
+            text-align: justify;
+        }
+    </style>
+
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <!-- Header -->
+    <!-- Header -->
+<header class="bg-white shadow">
+    <div class="container mx-auto p-4 flex justify-between items-center">
+        <div class="flex items-center space-x-4">
+            <img src="foto2.jpg" alt="Foto de Rodrigo Martins" class="w-40 h-40 rounded-full">
+            <h1 class="text-xl font-bold">Rodrigo Martins</h1>
+        </div>
+        <nav>
+            <ul class="flex space-x-4">
+                <li><a href="#about" class="hover:underline">Sobre Mim</a></li>
+                <li><a href="#experience" class="hover:underline">Experiência</a></li>
+                <li><a href="#formacao" class="hover:underline">Formação</a></li>
+                <li><a href="#projects" class="hover:underline">Projetos</a></li>
+                <li><a href="#contact" class="hover:underline">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- About Me Section -->
+        <section id="about" class="container mx-auto p-8">
+            <h2 class="text-3xl font-bold mb-4">Sobre Mim</h2>
+            <p>Olá! Meu nome é Rodrigo Martins e sou Mestre em Educação. Sou Pós-Graduado em Administração de Sistemas de Informação, possuo Licenciatura em Informática, e sou Graduado em Ciência da Computação e Pedagogia. Atualmente, sou professor de Ensino Superior na FMPFM - Faculdade Municipal Professor Franco Montoro, professor de Ensino Técnico no Centro Estadual de Educação Tecnológica Paula Souza (ETEC Mogi Mirim) e Consultor de Tecnologia da Informação. Leciono ou lecionei diversas disciplinas na área de tecnologia: Algoritmos e Lógica de Programação, Desenvolvimento de Software e Programação de Computadores (Pascal, C, C++, C#, Javascript, PHP, Java Desktop, Java Web, Java Mobile - com Android Studio), Engenharia de Software, Banco de Dados, Paradigmas de Programação, Interface Homem-Máquina, Sistemas Operacionais, Estruturas de Dados, Inteligência Artificial, Arquitetura e Organização de Computadores e Fundamentos Teóricos da Computação.</p>
+        </section>
+
+         <!-- Formação Section -->
+         <section id="formacao" class="bg-white p-8">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold mb-4">Formação acadêmica/titulação</h2>
+                <ul>
+                    <li class="mb-4">
+                        <h3 class="text-xl font-semibold">Mestrado em Educação</h3>
+                        <p>Instituição: Centro Universitário Adventista de São Paulo, UNASP, Engenheiro Coelho-SP <br>
+                            Título: O USO DA INTELIGÊNCIA ARTIFICIAL NA EDUCAÇÃO: análise e percepção dos professores do ensino médio e técnico, Ano de obtenção: 2023
+                            <br>Orientadora: Professora Doutora Helena Brandão Viana</p>
+                    </li>
+                    <li class="mb-4">
+                        <h3 class="text-xl font-semibold">Professor de Ensino Técnico na ETEC Mogi Mirim</h3>
+                        <p>Ensino de disciplinas variadas no campo da tecnologia da informação.</p>
+                    </li>
+                    <li class="mb-4">
+                        <h3 class="text-xl font-semibold">Consultor de Tecnologia da Informação</h3>
+                        <p>Prestação de serviços de consultoria em TI para empresas e instituições.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="bg-white p-8">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold mb-4">Experiência</h2>
+                <ul>
+                    <li class="mb-4">
+                        <h3 class="text-xl font-semibold">Professor de Ensino Superior na FMPFM</h3>
+                        <p>Desenvolvimento de currículos e materiais didáticos para cursos de tecnologia.</p>
+                    </li>
+                    <li class="mb-4">
+                        <h3 class="text-xl font-semibold">Professor de Ensino Técnico na ETEC Mogi Mirim</h3>
+                        <p>Ensino de disciplinas variadas no campo da tecnologia da informação.</p>
+                    </li>
+                    <li class="mb-4">
+                        <h3 class="text-xl font-semibold">Consultor de Tecnologia da Informação</h3>
+                        <p>Prestação de serviços de consultoria em TI para empresas e instituições.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="container mx-auto p-8">
+            <h2 class="text-3xl font-bold mb-4">Projetos</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="bg-white p-4 shadow">
+                    <h3 class="text-xl font-semibold">Projeto 1</h3>
+                    <p>Descrição do projeto 1.</p>
+                </div>
+                <!-- Adicione mais projetos conforme necessário -->
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="bg-white p-8">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold mb-4">Contato</h2>
+                <form action="#" method="POST" class="space-y-4">
+                    <div>
+                        <label for="name" class="block text-sm font-medium">Nome</label>
+                        <input type="text" id="name" name="name" class="w-full p-2 border border-gray-300 rounded">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-medium">Email</label>
+                        <input type="email" id="email" name="email" class="w-full p-2 border border-gray-300 rounded">
+                    </div>
+                    <div>
+                        <label for="message" class="block text-sm font-medium">Mensagem</label>
+                        <textarea id="message" name="message" class="w-full p-2 border border-gray-300 rounded"></textarea>
+                    </div>
+                    <button type="submit" class="bg-blue-500 text-white p-2 rounded">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white p-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Rodrigo Martins. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
